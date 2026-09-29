@@ -1,0 +1,116 @@
+{
+  "A": {
+    "sample": "A",
+    "captured_at_utc": "2026-09-13T14:12:08.992486+00:00",
+    "btc": {
+      "network": "Bitcoin mainnet",
+      "height": 800000,
+      "block_hash": "00000000000000000002a7c4c1e48d76c5a37902165a270156b7a8d72728a054",
+      "txid": "d41f5de48325e79070ccd3a23005f7a3b405f3ce1faa4df09f6d71770497e9d5",
+      "explorer": "https://blockstream.info/tx/d41f5de48325e79070ccd3a23005f7a3b405f3ce1faa4df09f6d71770497e9d5",
+      "api": "https://blockstream.info/api/tx/d41f5de48325e79070ccd3a23005f7a3b405f3ce1faa4df09f6d71770497e9d5"
+    },
+    "eth": {
+      "network": "Ethereum mainnet",
+      "chain_id": 1,
+      "tx_hash": "0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+      "height": 25968775,
+      "block_hash": "0x1c0093b31662a60255ffdc7419d5e714bb2bd6f829615a88797ef4d9be8c00ac",
+      "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "token_symbol": "LINK",
+      "token_decimals": 18,
+      "decimals_evidence": {
+        "method": "independent Blockscout token metadata",
+        "source_url": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+        "decimals": 18
+      },
+      "explorer": "https://etherscan.io/tx/0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+      "contract_source": "https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca#code",
+      "rpc": "https://ethereum-rpc.publicnode.com"
+    },
+    "abi_note": "Hand-authored ERC-20 transfer/Transfer ABI subset, based on EIP-20; not a full ABI downloaded from explorer.",
+    "abi_source": "https://eips.ethereum.org/EIPS/eip-20",
+    "reference": {
+      "btc": "https://mempool.space/api/tx/d41f5de48325e79070ccd3a23005f7a3b405f3ce1faa4df09f6d71770497e9d5",
+      "eth": "https://eth.blockscout.com/api/v2/transactions/0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+      "token": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "checked_at_utc": "2026-09-13T14:19:10.451651+00:00"
+    }
+  },
+  "B": {
+    "sample": "B",
+    "captured_at_utc": "2026-09-13T14:12:08.992486+00:00",
+    "btc": {
+      "network": "Bitcoin mainnet",
+      "height": 800000,
+      "block_hash": "00000000000000000002a7c4c1e48d76c5a37902165a270156b7a8d72728a054",
+      "txid": "c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+      "explorer": "https://blockstream.info/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+      "api": "https://blockstream.info/api/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17"
+    },
+    "eth": {
+      "network": "Ethereum mainnet",
+      "chain_id": 1,
+      "tx_hash": "0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+      "height": 25968776,
+      "block_hash": "0x457447d10b2be8b61cb5e8b5f9b42cf094bd9194c1f2abb7cf88247e2db3a2d8",
+      "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+      "token_symbol": "LINK",
+      "token_decimals": 18,
+      "decimals_evidence": {
+        "method": "independent Blockscout token metadata",
+        "source_url": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+        "decimals": 18
+      },
+      "explorer": "https://etherscan.io/tx/0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+      "contract_source": "https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca#code",
+      "rpc": "https://ethereum-rpc.publicnode.com"
+    },
+    "abi_note": "Hand-authored ERC-20 transfer/Transfer ABI subset, based on EIP-20; not a full ABI downloaded from explorer.",
+    "abi_source": "https://eips.ethereum.org/EIPS/eip-20",
+    "reference": {
+      "btc": "https://mempool.space/api/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+      "eth": "https://eth.blockscout.com/api/v2/transactions/0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+      "token": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "checked_at_utc": "2026-09-13T14:19:12.067276+00:00"
+    }
+  },
+  "C": {
+    "sample": "C",
+    "captured_at_utc": "2026-09-13T14:12:08.992486+00:00",
+    "btc": {
+      "network": "Bitcoin mainnet",
+      "height": 800000,
+      "block_hash": "00000000000000000002a7c4c1e48d76c5a37902165a270156b7a8d72728a054",
+      "txid": "965f866bf8623bbf956c1b2aeec1efc1ad162fd428ab7fb89f128a0754ebbc32",
+      "explorer": "https://blockstream.info/tx/965f866bf8623bbf956c1b2aeec1efc1ad162fd428ab7fb89f128a0754ebbc32",
+      "api": "https://blockstream.info/api/tx/965f866bf8623bbf956c1b2aeec1efc1ad162fd428ab7fb89f128a0754ebbc32"
+    },
+    "eth": {
+      "network": "Ethereum mainnet",
+      "chain_id": 1,
+      "tx_hash": "0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+      "height": 25968776,
+      "block_hash": "0x457447d10b2be8b61cb5e8b5f9b42cf094bd9194c1f2abb7cf88247e2db3a2d8",
+      "token_address": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "token_symbol": "UNI",
+      "token_decimals": 18,
+      "decimals_evidence": {
+        "method": "independent Blockscout token metadata",
+        "source_url": "https://eth.blockscout.com/api/v2/tokens/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "decimals": 18
+      },
+      "explorer": "https://etherscan.io/tx/0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+      "contract_source": "https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984#code",
+      "rpc": "https://ethereum-rpc.publicnode.com"
+    },
+    "abi_note": "Hand-authored ERC-20 transfer/Transfer ABI subset, based on EIP-20; not a full ABI downloaded from explorer.",
+    "abi_source": "https://eips.ethereum.org/EIPS/eip-20",
+    "reference": {
+      "btc": "https://mempool.space/api/tx/965f866bf8623bbf956c1b2aeec1efc1ad162fd428ab7fb89f128a0754ebbc32",
+      "eth": "https://eth.blockscout.com/api/v2/transactions/0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+      "token": "https://eth.blockscout.com/api/v2/tokens/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+      "checked_at_utc": "2026-09-13T14:19:13.581604+00:00"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "source_url": "https://eth.blockscout.com/api/v2/transactions/0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+  "data": {
+    "priority_fee": "277189199028",
+    "raw_input": "0xa9059cbb000000000000000000000000a3197823cdfa71b0979d553bd40d5b39f2a09dc60000000000000000000000000000000000000000000000004fc419c2e29aea5c",
+    "is_pending_update": false,
+    "result": "success",
+    "hash": "0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+    "max_fee_per_gas": "69989754",
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "transaction_burnt_fee": "3364559361135",
+    "type": 2,
+    "token_transfers_overflow": false,
+    "confirmations": 290,
+    "position": 85,
+    "max_priority_fee_per_gas": "5320228",
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "0",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0x9c87E5EFc511e27739aBC88Ad2bD8Db304De3E27",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": null,
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "gas_used": "52101",
+    "status": "ok",
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "Chainlink",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://scout-app.kleros.io/single-tags/0xc461940b3f403c212451e7e018e359d84fe04f979d6473abbe4109f3f44290ad",
+              "textColor": "#C163D4",
+              "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmT1yoZA5QQTHQ2wwmUWoUpor9DxoieUo6skqfYXPmBLqe/Bccz9CmxUCJb6mVyocQdGJfW8KqUdfJkRwojubAWFZs47crE1dU1NpgSJJ16gM8WPMopBE4K6BZkAVKvNYqRMfdoZ2\",\"token_symbol\":\"LINK\",\"token_name\":\"Chainlink\",\"decimals\":18}",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Contract address for the LINK token.",
+              "tooltipUrl": "https://chain.link/"
+            },
+            "name": "LINK Token",
+            "ordinal": 10,
+            "slug": "link-token-1",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "Token Contract",
+            "ordinal": 0,
+            "slug": "token-contract",
+            "tagType": "generic"
+          },
+          {
+            "meta": {},
+            "name": "Oracle",
+            "ordinal": 0,
+            "slug": "oracle",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "Chainlink CCIP",
+              "appID": "chainlink-ccip"
+            },
+            "name": "Chainlink",
+            "ordinal": 0,
+            "slug": "chainlink",
+            "tagType": "protocol"
+          },
+          {
+            "meta": {
+              "data": "ok"
+            },
+            "name": "Credible token",
+            "ordinal": 0,
+            "slug": "credible-token",
+            "tagType": "token_reputation"
+          }
+        ]
+      },
+      "name": "LinkToken",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "authorization_list": [],
+    "method": "transfer",
+    "fee": {
+      "type": "actual",
+      "value": "3641748560163"
+    },
+    "gas_limit": "52891",
+    "gas_price": "69897863",
+    "decoded_input": {
+      "method_call": "transfer(address _to, uint256 _value)",
+      "method_id": "a9059cbb",
+      "parameters": [
+        {
+          "name": "_to",
+          "type": "address",
+          "value": "0xA3197823CDFA71B0979d553Bd40D5b39F2A09DC6"
+        },
+        {
+          "name": "_value",
+          "type": "uint256",
+          "value": "5747747349247748700"
+        }
+      ]
+    },
+    "fhe_operations_count": 0,
+    "token_transfers": [
+      {
+        "block_hash": "0x457447d10b2be8b61cb5e8b5f9b42cf094bd9194c1f2abb7cf88247e2db3a2d8",
+        "block_number": 25968776,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x9c87E5EFc511e27739aBC88Ad2bD8Db304De3E27",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 158,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xA3197823CDFA71B0979d553Bd40D5b39F2A09DC6",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+          "circulating_market_cap": "5657513343.473743",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "7.79",
+          "holders_count": "1003799",
+          "icon_url": "https://assets.coingecko.com/coins/images/877/small/Chainlink_Logo_500.png?1760023405",
+          "name": "Chainlink",
+          "reputation": "ok",
+          "symbol": "LINK",
+          "total_supply": "1000000000000000000000000000",
+          "type": "ERC-20",
+          "volume_24h": "247726494.1851774"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "5747747349247748700"
+        },
+        "transaction_hash": "0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+        "type": "token_transfer"
+      }
+    ],
+    "base_fee_per_gas": "64577635",
+    "timestamp": "2026-09-13T13:21:11.000000Z",
+    "nonce": 213083,
+    "historic_exchange_rate": null,
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2483.43",
+    "block_number": 25968776,
+    "has_error_in_internal_transactions": false
+  }
+}

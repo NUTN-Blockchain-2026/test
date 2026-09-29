@@ -1,0 +1,38 @@
+{
+  "sample": "B",
+  "captured_at_utc": "2026-09-13T14:12:08.992486+00:00",
+  "btc": {
+    "network": "Bitcoin mainnet",
+    "height": 800000,
+    "block_hash": "00000000000000000002a7c4c1e48d76c5a37902165a270156b7a8d72728a054",
+    "txid": "c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+    "explorer": "https://blockstream.info/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+    "api": "https://blockstream.info/api/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17"
+  },
+  "eth": {
+    "network": "Ethereum mainnet",
+    "chain_id": 1,
+    "tx_hash": "0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+    "height": 25968776,
+    "block_hash": "0x457447d10b2be8b61cb5e8b5f9b42cf094bd9194c1f2abb7cf88247e2db3a2d8",
+    "token_address": "0x514910771af9ca656af840dff83e8264ecf986ca",
+    "token_symbol": "LINK",
+    "token_decimals": 18,
+    "decimals_evidence": {
+      "method": "independent Blockscout token metadata",
+      "source_url": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+      "decimals": 18
+    },
+    "explorer": "https://etherscan.io/tx/0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+    "contract_source": "https://etherscan.io/address/0x514910771af9ca656af840dff83e8264ecf986ca#code",
+    "rpc": "https://ethereum-rpc.publicnode.com"
+  },
+  "abi_note": "Hand-authored ERC-20 transfer/Transfer ABI subset, based on EIP-20; not a full ABI downloaded from explorer.",
+  "abi_source": "https://eips.ethereum.org/EIPS/eip-20",
+  "reference": {
+    "btc": "https://mempool.space/api/tx/c2f59c6fc8e812f5f1f00c8a0a9ab1929c1e796788c57f49001b8006a824ea17",
+    "eth": "https://eth.blockscout.com/api/v2/transactions/0x6bb7d1586f3f572c796a7d85eabdb67c22f53a1c9ec7fc84b829f2008ef02863",
+    "token": "https://eth.blockscout.com/api/v2/tokens/0x514910771af9ca656af840dff83e8264ecf986ca",
+    "checked_at_utc": "2026-09-13T14:19:12.067276+00:00"
+  }
+}

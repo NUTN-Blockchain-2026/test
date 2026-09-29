@@ -1,0 +1,18 @@
+{
+  "source_url": "https://eth.blockscout.com/api/v2/tokens/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+  "data": {
+    "address_hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+    "circulating_market_cap": "3904317317.953589",
+    "circulating_supply": null,
+    "decimals": "18",
+    "exchange_rate": "6.27",
+    "holders_count": "408478",
+    "icon_url": "https://assets.coingecko.com/coins/images/12504/small/uniswap-logo.png?1720676669",
+    "name": "Uniswap",
+    "reputation": "ok",
+    "symbol": "UNI",
+    "total_supply": "1000000000000000000000000000",
+    "type": "ERC-20",
+    "volume_24h": "409170913.5210692"
+  }
+}

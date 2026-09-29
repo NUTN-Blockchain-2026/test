@@ -1,0 +1,287 @@
+{
+  "source_url": "https://eth.blockscout.com/api/v2/transactions/0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+  "data": {
+    "priority_fee": null,
+    "raw_input": "0xa9059cbb000000000000000000000000e9d52b42fa94ddd9eec200c20d7b9173f97add0a00000000000000000000000000000000000000000000000095134016213f0000",
+    "is_pending_update": false,
+    "result": "success",
+    "hash": "0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+    "max_fee_per_gas": null,
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "transaction_burnt_fee": null,
+    "type": 0,
+    "token_transfers_overflow": false,
+    "confirmations": 290,
+    "position": 90,
+    "max_priority_fee_per_gas": null,
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "0",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0x46340b20830761efd32832A74d7169B29FEB9758",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": false,
+      "is_verified": false,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "main_entity": "Crypto.com Exchange"
+            },
+            "name": "Crypto.com Exchange: Hot Wallet",
+            "ordinal": 10,
+            "slug": "cryptocom-exchange-hot-wallet",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "HOT WALLET",
+            "ordinal": 0,
+            "slug": "hot-wallet",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "textColor": "#C163D4",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Provided by OLI",
+              "tooltipUrl": "https://crypto.com/"
+            },
+            "name": "Crypto.com 2",
+            "ordinal": 0,
+            "slug": "cryptocom-2",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "Crypto.com Exchange",
+            "ordinal": 0,
+            "slug": "cryptocom-exchange",
+            "tagType": "protocol"
+          }
+        ]
+      },
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "gas_used": "40082",
+    "status": "ok",
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "Uniswap Protocol",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://scout-app.kleros.io/single-tags/0x5fa82afc532562c7016644c06c6b1a2a00a4f72a3f69d661c246401c335b46c6",
+              "textColor": "#C163D4",
+              "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmdmjFAM9jyghRj4GRbH8bpnGh48o14Q2kqKFWjYA4a2Mj/Bcd75xnL2yQW9B3Ld8Wi4Hggf21tANTJt7RwXUKpB33bFnezc5LQBTA41Dkf8766tWNuiq1DBwK2ZSW5GQ4kZFASds\",\"token_symbol\":\"UNI\",\"token_name\":\"Uniswap\",\"decimals\":18}",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Contract address of UNI token.",
+              "tooltipUrl": "https://uniswap.org/"
+            },
+            "name": "Uniswap Protocol: UNI token",
+            "ordinal": 10,
+            "slug": "uniswap-protocol-uni-token",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "Token Contract",
+            "ordinal": 0,
+            "slug": "token-contract",
+            "tagType": "generic"
+          },
+          {
+            "meta": {},
+            "name": "DEX",
+            "ordinal": 0,
+            "slug": "dex",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "Uniswap",
+              "appID": "uniswap"
+            },
+            "name": "Uniswap Protocol",
+            "ordinal": 0,
+            "slug": "uniswap-protocol",
+            "tagType": "protocol"
+          },
+          {
+            "meta": {
+              "data": "ok"
+            },
+            "name": "Credible token",
+            "ordinal": 0,
+            "slug": "credible-token",
+            "tagType": "token_reputation"
+          }
+        ]
+      },
+      "name": "Uniswap",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "authorization_list": [],
+    "method": "transfer",
+    "fee": {
+      "type": "actual",
+      "value": "2700977957174"
+    },
+    "gas_limit": "350000",
+    "gas_price": "67386307",
+    "decoded_input": {
+      "method_call": "transfer(address dst, uint256 rawAmount)",
+      "method_id": "a9059cbb",
+      "parameters": [
+        {
+          "name": "dst",
+          "type": "address",
+          "value": "0xe9d52B42fA94Ddd9Eec200c20D7B9173F97add0A"
+        },
+        {
+          "name": "rawAmount",
+          "type": "uint256",
+          "value": "10742000000000000000"
+        }
+      ]
+    },
+    "fhe_operations_count": 0,
+    "token_transfers": [
+      {
+        "block_hash": "0x457447d10b2be8b61cb5e8b5f9b42cf094bd9194c1f2abb7cf88247e2db3a2d8",
+        "block_number": 25968776,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x46340b20830761efd32832A74d7169B29FEB9758",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "main_entity": "Crypto.com Exchange"
+                },
+                "name": "Crypto.com Exchange: Hot Wallet",
+                "ordinal": 10,
+                "slug": "cryptocom-exchange-hot-wallet",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "HOT WALLET",
+                "ordinal": 0,
+                "slug": "hot-wallet",
+                "tagType": "generic"
+              },
+              {
+                "meta": {
+                  "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "textColor": "#C163D4",
+                  "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+                  "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+                  "tooltipDescription": "Provided by OLI",
+                  "tooltipUrl": "https://crypto.com/"
+                },
+                "name": "Crypto.com 2",
+                "ordinal": 0,
+                "slug": "cryptocom-2",
+                "tagType": "name"
+              },
+              {
+                "meta": {},
+                "name": "Crypto.com Exchange",
+                "ordinal": 0,
+                "slug": "cryptocom-exchange",
+                "tagType": "protocol"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "log_index": 165,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0xe9d52B42fA94Ddd9Eec200c20D7B9173F97add0A",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+          "circulating_market_cap": "3904317317.953589",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "6.27",
+          "holders_count": "408478",
+          "icon_url": "https://assets.coingecko.com/coins/images/12504/small/uniswap-logo.png?1720676669",
+          "name": "Uniswap",
+          "reputation": "ok",
+          "symbol": "UNI",
+          "total_supply": "1000000000000000000000000000",
+          "type": "ERC-20",
+          "volume_24h": "409170913.5210692"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "10742000000000000000"
+        },
+        "transaction_hash": "0x6511c124820a72a656b4d5aa9fdf07801ef1e54a39cf96efbbb17d66be3dcf79",
+        "type": "token_transfer"
+      }
+    ],
+    "base_fee_per_gas": "64577635",
+    "timestamp": "2026-09-13T13:21:11.000000Z",
+    "nonce": 17733372,
+    "historic_exchange_rate": null,
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2483.43",
+    "block_number": 25968776,
+    "has_error_in_internal_transactions": false
+  }
+}

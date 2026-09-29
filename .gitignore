@@ -1,0 +1,32 @@
+# Python 產生的暫存檔與快取
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 虛擬環境資料夾 (非常重要，絕對不能讓 Git 追蹤)
+.venv/
+venv/
+env/
+
+# 程式執行後自動產生的報表資料夾
+reports/
+my_reports/
+
+# 作業系統產生的垃圾檔
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 開發編輯器產生的設定檔 (可選)
+.vscode/
+.idea/
+# 環境變數與機密資訊 (重要防呆)
+.env
+.env.*
+
+# 系統或程式產生的日誌
+*.log
+
+# 助教測資暫存目錄 (配合 GitHub Actions)
+ta-resources/

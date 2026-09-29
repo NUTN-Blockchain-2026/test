@@ -1,0 +1,231 @@
+{
+  "source_url": "https://eth.blockscout.com/api/v2/transactions/0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+  "data": {
+    "priority_fee": "17506500000000",
+    "raw_input": "0xa9059cbb000000000000000000000000961a29b5fe663e0b4972d25dfc52f0d328e67806000000000000000000000000000000000000000000000017feb494f16e461bf3",
+    "is_pending_update": false,
+    "result": "success",
+    "hash": "0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+    "max_fee_per_gas": "1017956210",
+    "revert_reason": null,
+    "confirmation_duration": [
+      0,
+      12000.0
+    ],
+    "transaction_burnt_fee": "2012446752690",
+    "type": 2,
+    "token_transfers_overflow": false,
+    "confirmations": 290,
+    "position": 72,
+    "max_priority_fee_per_gas": "500000000",
+    "transaction_tag": null,
+    "created_contract": null,
+    "value": "0",
+    "from": {
+      "ens_domain_name": null,
+      "hash": "0x2CfF890f0378a11913B6129B2E97417a2c302680",
+      "implementations": [],
+      "is_contract": false,
+      "is_scam": true,
+      "is_verified": false,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "tooltipUrl": "https://near-intents.org/"
+            },
+            "name": "NEAR Intents",
+            "ordinal": 10,
+            "slug": "near-intents",
+            "tagType": "name"
+          }
+        ]
+      },
+      "name": null,
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "scam",
+      "watchlist_names": []
+    },
+    "gas_used": "35013",
+    "status": "ok",
+    "to": {
+      "ens_domain_name": null,
+      "hash": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+      "implementations": [],
+      "is_contract": true,
+      "is_scam": false,
+      "is_verified": true,
+      "metadata": {
+        "tags": [
+          {
+            "meta": {
+              "projectName": "Chainlink",
+              "tagIcon ": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tagUrl": "https://scout-app.kleros.io/single-tags/0xc461940b3f403c212451e7e018e359d84fe04f979d6473abbe4109f3f44290ad",
+              "textColor": "#C163D4",
+              "tokenAttributes": "{\"logo_url\":\"https://cdn.kleros.link/ipfs/QmT1yoZA5QQTHQ2wwmUWoUpor9DxoieUo6skqfYXPmBLqe/Bccz9CmxUCJb6mVyocQdGJfW8KqUdfJkRwojubAWFZs47crE1dU1NpgSJJ16gM8WPMopBE4K6BZkAVKvNYqRMfdoZ2\",\"token_symbol\":\"LINK\",\"token_name\":\"Chainlink\",\"decimals\":18}",
+              "tooltipAttribution": "https://www.openlabelsinitiative.org?utm_source=blockscout",
+              "tooltipAttributionIcon": "https://blockscout-icons.s3.us-east-1.amazonaws.com/OLI_tag_logo.svg",
+              "tooltipDescription": "Contract address for the LINK token.",
+              "tooltipUrl": "https://chain.link/"
+            },
+            "name": "LINK Token",
+            "ordinal": 10,
+            "slug": "link-token-1",
+            "tagType": "name"
+          },
+          {
+            "meta": {},
+            "name": "Token Contract",
+            "ordinal": 0,
+            "slug": "token-contract",
+            "tagType": "generic"
+          },
+          {
+            "meta": {},
+            "name": "Oracle",
+            "ordinal": 0,
+            "slug": "oracle",
+            "tagType": "generic"
+          },
+          {
+            "meta": {
+              "appActionButtonText": "Chainlink CCIP",
+              "appID": "chainlink-ccip"
+            },
+            "name": "Chainlink",
+            "ordinal": 0,
+            "slug": "chainlink",
+            "tagType": "protocol"
+          },
+          {
+            "meta": {
+              "data": "ok"
+            },
+            "name": "Credible token",
+            "ordinal": 0,
+            "slug": "credible-token",
+            "tagType": "token_reputation"
+          }
+        ]
+      },
+      "name": "LinkToken",
+      "private_tags": [],
+      "proxy_type": null,
+      "public_tags": [],
+      "reputation": "ok",
+      "watchlist_names": []
+    },
+    "authorization_list": [],
+    "method": "transfer",
+    "fee": {
+      "type": "actual",
+      "value": "19518946752690"
+    },
+    "gas_limit": "100000",
+    "gas_price": "557477130",
+    "decoded_input": {
+      "method_call": "transfer(address _to, uint256 _value)",
+      "method_id": "a9059cbb",
+      "parameters": [
+        {
+          "name": "_to",
+          "type": "address",
+          "value": "0x961A29b5fE663e0b4972d25dfc52F0D328e67806"
+        },
+        {
+          "name": "_value",
+          "type": "uint256",
+          "value": "442628571841419418611"
+        }
+      ]
+    },
+    "fhe_operations_count": 0,
+    "token_transfers": [
+      {
+        "block_hash": "0x1c0093b31662a60255ffdc7419d5e714bb2bd6f829615a88797ef4d9be8c00ac",
+        "block_number": 25968775,
+        "from": {
+          "ens_domain_name": null,
+          "hash": "0x2CfF890f0378a11913B6129B2E97417a2c302680",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": true,
+          "is_verified": false,
+          "metadata": {
+            "tags": [
+              {
+                "meta": {
+                  "tooltipUrl": "https://near-intents.org/"
+                },
+                "name": "NEAR Intents",
+                "ordinal": 10,
+                "slug": "near-intents",
+                "tagType": "name"
+              }
+            ]
+          },
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "scam",
+          "watchlist_names": []
+        },
+        "log_index": 90,
+        "method": null,
+        "timestamp": null,
+        "to": {
+          "ens_domain_name": null,
+          "hash": "0x961A29b5fE663e0b4972d25dfc52F0D328e67806",
+          "implementations": [],
+          "is_contract": false,
+          "is_scam": false,
+          "is_verified": false,
+          "metadata": null,
+          "name": null,
+          "private_tags": [],
+          "proxy_type": null,
+          "public_tags": [],
+          "reputation": "ok",
+          "watchlist_names": []
+        },
+        "token": {
+          "address_hash": "0x514910771AF9Ca656af840dff83E8264EcF986CA",
+          "circulating_market_cap": "5657513343.473743",
+          "circulating_supply": null,
+          "decimals": "18",
+          "exchange_rate": "7.79",
+          "holders_count": "1003799",
+          "icon_url": "https://assets.coingecko.com/coins/images/877/small/Chainlink_Logo_500.png?1760023405",
+          "name": "Chainlink",
+          "reputation": "ok",
+          "symbol": "LINK",
+          "total_supply": "1000000000000000000000000000",
+          "type": "ERC-20",
+          "volume_24h": "247726494.1851774"
+        },
+        "token_type": "ERC-20",
+        "total": {
+          "decimals": "18",
+          "value": "442628571841419418611"
+        },
+        "transaction_hash": "0xa4c31278ea4f3cdb46d129e4f3ba38f9afca30f3d4490a009433aae9e1446996",
+        "type": "token_transfer"
+      }
+    ],
+    "base_fee_per_gas": "57477130",
+    "timestamp": "2026-09-13T13:20:59.000000Z",
+    "nonce": 1089860,
+    "historic_exchange_rate": null,
+    "transaction_types": [
+      "contract_call",
+      "token_transfer"
+    ],
+    "exchange_rate": "2482.12",
+    "block_number": 25968775,
+    "has_error_in_internal_transactions": false
+  }
+}

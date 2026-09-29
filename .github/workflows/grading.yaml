@@ -1,0 +1,72 @@
+name: 第一次區塊鏈實作自動批改
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'task_functions.py'
+
+jobs:
+  autograding:
+    runs-on: ubuntu-latest
+    steps:
+    # 針對初始提交的提示
+    - name: 初始狀態檢查
+      if: "contains(github.event.head_commit.message, 'Initial commit')"
+      run: |
+        echo "::error::請完成作業後上傳檔案。"
+        exit 1  # 強制結束並回報失敗狀態 (亮紅燈)
+    
+    # 1. 抓取學生自己填寫的程式碼 (根目錄)
+    - name: 取得學生程式碼
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      uses: actions/checkout@v4
+
+    # 2. 抓取助教的私有測資與資料檔 (覆蓋回根目錄的 tests 與 data)
+    - name: 取得私有測資與資料檔
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      uses: actions/checkout@v4
+      with:
+        repository: 'NUTN-Blockchain-2026/blockchain-checks' # 替換為實際的私有測資庫名稱
+        token: ${{ secrets.TA_GRADING_PAT }}
+        path: 'ta-resources'
+
+    - name: 將測資移入工作目錄並強制覆蓋
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      run: |
+        # 1. 把私有庫的 tests 搬進來
+        mv ta-resources/blockchain-lab1/tests ./tests
+        
+        # 2. 強制覆蓋學生的 data，確保資料的真實性與完整性
+        cp -rf ta-resources/blockchain-lab1/data/* ./data/
+
+        # 3. 強制替換除了 task_functions.py 以外的所有 Python 檔案
+        for file in ta-resources/blockchain-lab1/*.py; do
+          if [ "$(basename "$file")" != "task_functions.py" ]; then
+            cp -f "$file" ./
+          fi
+        done
+        
+        # 4. 清理暫存
+        rm -rf ta-resources
+
+    - name: 設定 Python 3.12 環境
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: 安裝相依套件
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+
+    - name: 執行資料完整性與環境檢查
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      run: python check_env.py
+
+    - name: 執行助教單元測試
+      if: "!contains(github.event.head_commit.message, 'Initial commit')"
+      run: python -m unittest discover -s tests -v
