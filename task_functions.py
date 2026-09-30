@@ -10,6 +10,10 @@ def calculate_btc(vin, vout):
     輸入金額在 item['prevout']['value']；輸出在 item['value']。
     要加總所有項目，不能只取第 0 筆。前置檢查已排除 coinbase。
     """
+    input_total=sum(item["prevout"]["value"] for item in vin)
+    output_total=sum(item["value"] for item in vout)
+    fee=input_total-output_total
+    return input_total,output_total,fee
     raise NotImplementedError("請完成題一 calculate_btc：兩個加總與一個差額。")
 
 
